@@ -8,7 +8,7 @@ This dumper is a WIP, it doesn't support bank switching... but can rip standard 
 
 The provided C application is merely the Arduino serial example, with a few minor modifications.
 
-The Arudino "CartDump" sketch is the heart of the ripping, setting the address pins as required for each address
+The Arudino "CartDump" sketch is the heart of the ripping, setting the address pins as required, reading the data pins back and sending the resulting byte over USB to the serial listener C app.
 
 
 ![Schematic of the Cart Dumper](https://raw.githubusercontent.com/segrax/Arduino-C64-Cartridge-Dumper/master/Schematic.png)
