@@ -14,4 +14,4 @@ Most of the information about the Expansion Port, is taken from http://www.c64-w
 
 ![Schematic of the Cart Dumper](https://raw.githubusercontent.com/segrax/Arduino-C64-Cartridge-Dumper/master/Schematic.png)
 
-![Photo of completed device](https://github.com/segrax/Arduino-C64-Cartridge-Dumper/blob/master/Photos/Final.jpg)
+![Photo of completed device](https://raw.githubusercontent.com/segrax/Arduino-C64-Cartridge-Dumper/master/Photos/Final.jpg)
