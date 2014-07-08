@@ -6,12 +6,13 @@ and no available ROM online, got me wondering whats inside it.
 
 This dumper is a WIP, it doesn't support bank switching... but can rip standard 8k Carts without issue.
 
-The provided C application is merely the Arduino serial example, with a few minor modifications.
+The provided C application is merely the Arduino serial example, with a few minor modifications to begin the dump, and save all received bytes to a file.
 
 The Arudino "CartDump" sketch is the heart of the ripping, setting the address pins as required, reading the data pins back and sending the resulting byte over USB to the serial listener C app.
 
-Most of the information about the Expansion Port, is taken from http://www.c64-wiki.com/index.php/Expansion_Port
 
+Most of the information about the Expansion Port is taken from http://www.c64-wiki.com/index.php/Expansion_Port
 ![Schematic of the Cart Dumper](https://raw.githubusercontent.com/segrax/Arduino-C64-Cartridge-Dumper/master/Schematic.png)
 
+Completed Device
 ![Photo of completed device](https://raw.githubusercontent.com/segrax/Arduino-C64-Cartridge-Dumper/master/Photos/Final.jpg)
