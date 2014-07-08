@@ -10,7 +10,8 @@ The provided C application is merely the Arduino serial example, with a few mino
 
 The Arudino "CartDump" sketch is the heart of the ripping, setting the address pins as required, reading the data pins back and sending the resulting byte over USB to the serial listener C app.
 
+Most of the information about the Expansion Port, is taken from http://www.c64-wiki.com/index.php/Expansion_Port
 
 ![Schematic of the Cart Dumper](https://raw.githubusercontent.com/segrax/Arduino-C64-Cartridge-Dumper/master/Schematic.png)
 
-Most of the information used to build this, is taken from http://www.c64-wiki.com/index.php/Expansion_Port
+![Photo of completed device](https://github.com/segrax/Arduino-C64-Cartridge-Dumper/blob/master/Photos/Final.jpg)
