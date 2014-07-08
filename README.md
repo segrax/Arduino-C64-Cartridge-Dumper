@@ -12,3 +12,5 @@ The Arudino "CartDump" sketch is the heart of the ripping, setting the address p
 
 
 ![Schematic of the Cart Dumper](https://raw.githubusercontent.com/segrax/Arduino-C64-Cartridge-Dumper/master/Schematic.png)
+
+Most of the information used to build this, is taken from http://www.c64-wiki.com/index.php/Expansion_Port
